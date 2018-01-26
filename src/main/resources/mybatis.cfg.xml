@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration   
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"   
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 进行Mybatis的相应的环境的属性定义 -->
+	<settings>	<!-- 在本项目之中开启二级缓存 -->
+		<setting name="cacheEnabled" value="true"/>
+	</settings>
+
+	<typeAliases>
+		<!--<typeAlias type="com.zhy.vo.Member" alias="Member"/>-->
+		<!--这样该包中的所有vo类都可以自动以类名称的模式来设置别名-->
+		<package name="com.zhy.vo"/>
+	</typeAliases>
+
+	<!--<mappers>-->
+		<!--<mapper resource="com/zhy/vo/mapping/Member.xml"/>-->
+	<!--</mappers>-->
+</configuration> 
