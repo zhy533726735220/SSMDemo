@@ -8,6 +8,7 @@
 /SSMDemo.iml
 
 /src/main/resources/log4j.properties
+/src/main/resources/database.properties
 
 /src/main/webapp/js/jquery-3.2.1.js
 
